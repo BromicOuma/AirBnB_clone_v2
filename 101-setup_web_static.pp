@@ -1,5 +1,4 @@
 include stdlib
-
 # Update package lists
 exec { 'Update lists':
     command => '/usr/bin/apt update'
